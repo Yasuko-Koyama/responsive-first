@@ -1,0 +1,77 @@
+body
+{
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','ＭＳ Ｐ明朝','MS PMincho','Times New Roman',serif;    
+    font-size: 0.75em;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+    background-color: #FFFFFF;
+}
+
+h1{
+  font-size:2.2em;
+  line-height:2em;
+  letter-spacing: 0.2em;
+}
+
+h3{
+  font-size:1.2em;
+  line-height:3em;
+  color:#ffffff;
+  letter-spacing: 0.2em;
+}
+
+.box {
+  background-image: url("img/topimage.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.contents {
+  background-color:#e8ece9;
+  margin: 20px;
+  padding:20px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .box{
+    height: 250px;
+    width: 100%;
+  }
+}
+
+        .button {
+          margin: auto;
+          text-align: center;
+          padding: 0.1em 0;
+          width: 220px;
+          display: block;
+          color: #ffffff;
+          font-weight: bold;
+          background-color: #504946;
+          border-radius: 0.5em;	
+          font-size: 0.8rem;
+        }
+         .footer {
+          background-color: #898880;
+          text-align: center;
+          padding: 20px;
+                }
+#main
+{
+      text-align: center;
+}
+
+.icon{
+     font-size:5em;
+}
